@@ -1,0 +1,7 @@
+target = pcd.assignment1.jpf.JPFVerificationMain
+
+classpath=build/classes/java/main
+
+listener=gov.nasa.jpf.listener.PreciseRaceDetector
+
+report.console.property_violation=error,trace
